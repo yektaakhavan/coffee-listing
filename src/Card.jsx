@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./Card.css";
 import CoffeeList from "./CoffeeList";
 
 function Card({ filter }) {
