@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111315;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  /* جلوگیری از اسکرول افقی */
+}
+
+.container-fluid {
+  position: relative;
+  z-index: 1;
+  padding-top: 150px;
+}
+
+.container {
+  margin-top: -100px;
+  background-color: #1B1D1F;
+  border-radius: 10px;
+  padding: 80px;
+  text-align: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+
+.bg-image {
+  background-image: url(../public/assest/images/bg-cafe.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 300px;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+h1 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 0.625rem;
+  line-height: 15px;
+  color: #6F757C;
+  padding: 12px;
+}
+
+#all-products,
+#available-now {
+  all: unset;
+  border: 1px solid none;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#all-products {
+  background-color: #4D5562;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  font-size: 0.875rem;
+}
+
+
+@media screen and (max-width:576px) {
+  .bg-image {
+    background-image: url(../public/assest/images/bg-cafe-sm.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .container-fluid {
+    padding-top: 200px;
+  }
+
+  .container {
+    margin-top: -100px;
+    padding: 30px;
+    max-width: 280px;
+  }
+}
