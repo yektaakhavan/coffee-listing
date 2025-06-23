@@ -18,7 +18,7 @@ function CoffeeList({ items }) {
                 <>
                   <img
                     id="star"
-                    src="/public/assest/images/Star_fill.svg"
+                    src="/assest/images/Star_fill.svg"
                     alt="star"
                   />
                   <p id="rating">{item.rating}</p>
@@ -29,7 +29,7 @@ function CoffeeList({ items }) {
                 </>
               ) : (
                 <>
-                  <img id="star" src="/public/assest/images/Star.svg" alt="star" />
+                  <img id="star" src="/assest/images/Star.svg" alt="star" />
                   <p id="votes">No rating</p>
                 </>
               )}
