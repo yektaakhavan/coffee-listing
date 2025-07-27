@@ -1,6 +1,8 @@
 # ☕ Coffee Listing
 
-A simple and visually appealing project to display a list of coffee drinks using HTML, CSS, JavaScript, and React. This project is part of practicing UI design and DOM manipulation skills.
+A simple and visually appealing project to display a list of coffee drinks using HTML, CSS, JavaScript, and React.  
+The coffee data is loaded dynamically from a JSON file, making it easy to manage and extend.  
+This project is part of practicing UI design and DOM manipulation skills.
 
 ---
 
@@ -12,11 +14,12 @@ A simple and visually appealing project to display a list of coffee drinks using
 
 ## 📦 Features
 
-- ✅ Responsive design
-- 🎨 Modern and clean UI
-- 🧭 Sorting and filtering options (if implemented)
-- 💡 Clean and readable HTML/CSS structure
-- ✔ Built with React
+- ✅ Responsive design  
+- 🎨 Modern and clean UI  
+- 🧭 Sorting and filtering options (if implemented)  
+- 💡 Clean and readable HTML/CSS structure  
+- ✔ Built with React  
+- 📄 Uses external JSON file to load coffee data  
 
 ---
 
@@ -32,6 +35,7 @@ A simple and visually appealing project to display a list of coffee drinks using
 - CSS3  
 - JavaScript  
 - React  
+- JSON (for data source)  
 
 ---
 
