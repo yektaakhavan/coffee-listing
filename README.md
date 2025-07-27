@@ -1,46 +1,46 @@
 # ☕ Coffee Listing
 
-یک پروژه ساده و جذاب برای نمایش لیستی از نوشیدنی‌های قهوه با استفاده از HTML، CSS و JavaScript. این پروژه بخشی از تمرینات طراحی رابط کاربری و مهارت‌های DOM manipulation می‌باشد.
+A simple and visually appealing project to display a list of coffee drinks using HTML, CSS, JavaScript, and React. This project is part of practicing UI design and DOM manipulation skills.
 
 ---
 
-## 🖼️ پیش‌نمایش
+## 🖼️ Preview
 
-![Coffee Listing Preview](./screenshot.png) 
-
----
-
-## 📦 ویژگی‌ها
-
-- ✅ طراحی واکنش‌گرا (Responsive)
-- 🎨 رابط کاربری جذاب و مدرن
-- 🧭 قابلیت مرتب‌سازی و فیلترکردن نوشیدنی‌ها (در صورت پیاده‌سازی)
-- 💡 ساختار HTML/CSS تمیز و قابل فهم
-- ✔ استفاده از React
+![Coffee Listing Preview](./screenshot.png)
 
 ---
 
-## 🚀 مشاهده دمو
+## 📦 Features
 
-[مشاهده دمو در GitHub Pages](https://yektaakhavan.github.io/coffee-listing/)
-
----
-
-## 🛠️ تکنولوژی‌های استفاده شده
-
-- HTML5
-- CSS3
-- JavaScript
-- React
+- ✅ Responsive design
+- 🎨 Modern and clean UI
+- 🧭 Sorting and filtering options (if implemented)
+- 💡 Clean and readable HTML/CSS structure
+- ✔ Built with React
 
 ---
 
+## 🚀 Live Demo
 
-
-## 👤 توسعه‌دهنده
-💻 ساخته شده توسط Yekta Akhavan
+[View Demo on GitHub Pages](https://yektaakhavan.github.io/coffee-listing/)
 
 ---
-## 🙏 تشکر
-اگر این پروژه برایتان مفید بود، با دادن ⭐ در GitHub از من حمایت کنید.
 
+## 🛠️ Built With
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- React  
+
+---
+
+## 👤 Developer
+
+💻 Created by Yekta Akhavan
+
+---
+
+## 🙏 Acknowledgments
+
+If you found this project useful, consider giving it a ⭐ on GitHub to support me.
