@@ -1,7 +1,7 @@
 import "./CoffeeList.css";
 
-import starIcon from "../src/assest/images/star.svg";
-import starFillIcon from "../src/assest/images/Star_fill.svg";
+import starIcon from "./assest/images/star.svg";
+import starFillIcon from "./assest/images/Star_fill.svg";
 function CoffeeList({ items }) {
   return (
     <ul className="coffee-list">
