@@ -1,4 +1,6 @@
 import "./CoffeeList.css";
+import starIcon from './assets/images/Star.svg';
+import starFillIcon from './assets/images/Star_fill.svg';
 function CoffeeList({ items }) {
   return (
     <ul className="coffee-list">
@@ -18,7 +20,7 @@ function CoffeeList({ items }) {
                 <>
                   <img
                     id="star"
-                    src="/src/assest/images/Star_fill.svg"
+                    src={starFillIcon}
                     alt="star"
                   />
                   <p id="rating">{item.rating}</p>
@@ -29,7 +31,7 @@ function CoffeeList({ items }) {
                 </>
               ) : (
                 <>
-                  <img id="star" src="/src/assest/images/Star.svg" alt="star" />
+                  <img id="star" src={starIcon} alt="star" />
                   <p id="votes">No rating</p>
                 </>
               )}
